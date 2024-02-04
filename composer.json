@@ -1,15 +1,26 @@
 {
     "name": "stmp/stmp",
     "type": "library",
-    "description": "String Manululatiom",
-    "keywords": ["log","logging"],
-    "homepage": "https://github.com/",
+    "description": "stMp is a simple yet flexible PHP string manupulation library.",
+    "keywords": [
+    "bdd",
+    "library",
+    "string",
+    "string manupulation library",
+    "stMp",
+    "STMP",
+    "stmp",
+    "test",
+    "test double",
+    "testing"
+    ],
+    "homepage": "https://github.com/Aanonymous19/stmp/",
     "license": "MIT",
     "authors": [
         {
             "name": "_Kshatriya_16",
             "email": "akki.youto@gmail.com",
-            "homepage": "http://examole.com",
+            "homepage": "http://example.com",
             "role": "Developer"
         }
     ],
