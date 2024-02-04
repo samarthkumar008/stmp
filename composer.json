@@ -1,40 +1,24 @@
 {
-  "name": "stmp/stmp",
-  "type": "stMp-module",
-  "description": "stMp is a simple yet flexible PHP string manupulation library.",
-  "scripts": {
-    "docs": "phpdoc -d library -t docs/api"
-  },
-  "keywords": [
-    "bdd",
-    "library",
-    "string",
-    "string manupulation library",
-    "stMp",
-    "STMP",
-    "stmp",
-    "test",
-    "test double",
-    "testing"
-  ],
-  "homepage": "https://github.com/",
-  "license": "_kshatriya_16",
-  "authors": [
-    {
-      "name": "_Kshatriya_16",
-      "email": "akki.youto@gmail.com",
-      "homepage": ""
+    "name": "stmp/stmp",
+    "type": "library",
+    "description": "String Manululatiom",
+    "keywords": ["log","logging"],
+    "homepage": "https://github.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "_Kshatriya_16",
+            "email": "akki.youto@gmail.com",
+            "homepage": "http://examole.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
     },
-    {
-      "name": "_Kshatriya_16",
-      "email": "akki.youto@gmail.com",
-      "homepage": ""
+    "autoload": {
+        "psr-0": {
+            "stMp": "src"
+        }
     }
-  ],
-  "require": {
-  },
-  "autoload": {
-    "psr-0": {
-      "stMp": "src/"
-    }
-  },
+}
