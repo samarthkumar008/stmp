@@ -1,5 +1,5 @@
 {
-  "name": "stMp/stMp",
+  "name": "stmp/stmp",
   "type": "stMp-module",
   "description": "stMp is a simple yet flexible PHP string manupulation library.",
   "scripts": {
