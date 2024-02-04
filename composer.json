@@ -44,12 +44,12 @@
   },
   "autoload": {
     "psr-0": {
-      "stMp": "src/"
+      "stmp": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "test\\": "tests/" 
+      "tests\\": "tests/" 
     }
   },
   "config": {
