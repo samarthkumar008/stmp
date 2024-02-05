@@ -7,7 +7,7 @@ stMp is a simple yet flexible PHP string manupulation library.
 
 To install stMp, run the command below and you will get the latest version
 ```sh
-composer require stmp/stmp
+$ composer require stmp/stmp
 ```
 
 ## List Of Usages:
