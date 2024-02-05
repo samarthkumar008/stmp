@@ -1,4 +1,4 @@
-u{
+{
     "name": "stmp/stmp",
     "type": "library",
     "description": "stMp is a simple yet flexible PHP string manupulation library.",
