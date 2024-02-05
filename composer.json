@@ -1,4 +1,4 @@
-{
+u{
     "name": "stmp/stmp",
     "type": "library",
     "description": "stMp is a simple yet flexible PHP string manupulation library.",
@@ -25,7 +25,7 @@
         }
     ],
     "require": {
-        "stmp/stmp": "1.0.1",
+        "stmp": "1.0.1",
         "php": ">=7.0.0"
     },
     "autoload": {
