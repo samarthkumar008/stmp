@@ -11,7 +11,7 @@ $ composer require stmp/stmp
 ```
 
 ## List Of Usages:
-(i) _isEmpty, (ii) _getStrLen, (iii) _trim, (iv) _lower, (v) _upper, (vi) _stripQuotes, (vii) _replace (viii) _upperCamelCase, (ix) _slug, (x) _snakeCase, (xi) _dotNotation, (xii) _isPalindrome, (xiii) _wordCount (xiv) _htmlRemoveTags, (xv) _slashesRemove, (xvi) _arrayToString, (xvii) _reverseString, (xviii) _randomString, (xiv) _isAnagram,  (xx) _ucFirst, (xxi) _ucLast, (xxii) _countSentence, (xxiii) _removeDuplicateChars, (xxiv) _removeComment, (xxv) _stripDigit, (xxvi) ltrim, (xxvii) rtrim
+(i) _isEmpty, (ii) _getStrLen, (iii) _trim, (iv) _lower, (v) _upper, (vi) _stripQuotes, (vii) _replace (viii) _upperCamelCase, (ix) _slug, (x) _snakeCase, (xi) _dotNotation, (xii) _isPalindrome, (xiii) _wordCount (xiv) _htmlRemoveTags, (xv) _slashesRemove, (xvi) _arrayToString, (xvii) _reverseString, (xviii) _randomString, (xiv) _isAnagram,  (xx) _ucFirst, (xxi) _ucLast, (xxii) _countSentence, (xxiii) _removeDuplicateChars, (xxiv) _removeComment, (xxv) _stripDigit, (xxvi) ltrim, (xxvii) rtrim, (xxviii) _removeDiacritic
 
 ## Usages
 ```
