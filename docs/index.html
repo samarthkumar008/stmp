@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Akki">
+  <title>stmp | String Manupulation</title>
+  <link rel="stylesheet" href="./assets/css/custom.css">
+  <link rel="stylesheet" href="./assets/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+<!-- Top Section -->
+<section class="hero is-medium is-primary is-bold">
+<div class="hero-body">
+<div class="container">
+  <div class="float-left">
+    <img id="logo" class="logo">
+  </div>
+  <div>
+    <h1 class="title" id="title">
+      STMP (String Manupulation) v1.0.2
+    </h1>
+    <h2 class="subtitle" id="subtitle">stMp is a simple yet flexible PHP string manupulation library.</h2>
+  </div>
+</div>
+</div>
+</section>
+<!--* Top Section -->
+<!-- Main Section -->
+<section class="section">
+<div class="container">
+<div class="columns">
+  <div class="column is-3 sidebar">
+    <aside class="menu">
+      <p class="menu-label">General</p>
+      <ul class="menu-list">
+        <li><a href="#ins">Installation</a></li>
+        <li><a href="#base">Functions List</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#version">Latest Version</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p class="menu-label">Endpoints</p>
+      <ul class="menu-list endpoints-menu"> </ul>
+    </aside>
+  </div>
+  <!-- Content Area -->
+  <div class="column is-9" id="boxes">
+    <div class="box" id="ins">
+      <h4 class="title is-3">Install</h4>
+      <article class="message is-primary">
+        <div class="message-body" id="base_info">You can intall this package using composer with this command.</div>
+      </article>
+      <pre><code id="base_url">composer require stmp/stmp</code></pre>
+    </div>
+    <div class="box" id="base">
+      <h4 class="title is-3">Functions</h4>
+      <article class="message is-primary">
+      <div class="message-body" id="base_info">All functions list that you can perform in string manupulation.</div>
+      </article>
+      <pre><code id="base_url">
+        <li>_isEmpty</li>
+        <li>_getStrLen</li>
+        <li>_trim</li>
+        <li>_ltrim</li>
+        <li>_rtrim</li>
+        <li>_stripSpace</li>
+        <li>_lower</li>
+        <li>_upper</li>
+        <li>_stripQuotes</li>
+        <li>_replace</li>
+        <li>_upperCamelCase</li>
+        <li>_slug</li>
+        <li>_snakeCase</li>
+        <li>_dotNotation</li>
+        <li>_isPalindrome</li>
+        <li>_wortCount</li>
+        <li>_htmlRemoveTags</li>
+        <li>_removeSlashes</li>
+        <li>_removeDoubleSlashes</li>
+        <li>_reduceMultiples</li>
+        <li>_arrayToString</li>
+        <li>_reverseString</li>
+        <li>_randomString</li>
+        <li>_ucFirst</li>
+        <li>_ucLast</li>
+        <li>_isAnagram</li>
+        <li>_countSentence</li>
+        <li>_removeDuplicateChars</li>
+        <li>_removeComment</li>
+        <li>_stripDigit</li>
+        <li>_removeDiacritic</li>
+      </code></pre>
+    </div>
+    <div class="box" id="programs">
+      <h4 class="title is-3">Programs</h4>
+      <article class="message is-primary">
+      <div class="message-body" id="auth_info">How to use programs? check it.</div>
+      </article>
+      <pre><code id="program">Example1:- echo \stMp\stMp::_isEmpty(''); //Output:- 0</code></pre>
+      <pre><code id="program">Example2:- echo \stMp\stMp::_getStrLen('Demo'); //Output:- 4</code></pre>
+      <pre><code id="program">Example3:- echo \stMp\stMp::_trim('Demo'); //Output:- Demo</code></pre>
+      <pre><code id="program">Example4:- echo \stMp\stMp::_ltrim('Demo'); //Output:- Demo</code></pre>
+      <pre><code id="program">Example5:- echo \stMp\stMp::_rtrim('Demo'); //Output:- Demo</code></pre>
+      <pre><code id="program">Example6:- echo \stMp\stMp::_stripSpace('De mo'); //Output:- 4</code></pre>
+      <pre><code id="program">Example7:- echo \stMp\stMp::_lower('DEMO'); //Output:- demo</code></pre>
+      <pre><code id="program">Example8:- echo \stMp\stMp::_upper('demo'); //Output:- DEMO</code></pre>
+      <pre><code id="program">Example9:- echo \stMp\stMp::_stripQuotes('"Demo"'); //Output:- Demo</code></pre>
+      <pre><code id="program">Example10:- echo \stMp\stMp::_replace('Demo','DEMO); //Output:- Demo</code></pre>
+      <pre><code id="program">Example11:- echo \stMp\stMp::_upperCamelCase('Demo'); //Output:- Demo</code></pre>
+      <pre><code id="program">Example12:- echo \stMp\stMp::_slug('Demo Demo'); //Output:- Demo-Demo</code></pre>
+      <pre><code id="program">Example13:- echo \stMp\stMp::_snakeCase('Demo Demo'); //Output:- Demo_Demo</code></pre>
+      <pre><code id="program">Example14:- echo \stMp\stMp::_dotNotation('Demo Demo'); //Output:- Demo.Demo</code></pre>
+      <pre><code id="program">Example15:- echo \stMp\stMp::_isPalindrome('Ana'); //Output:- </code></pre>
+      <pre><code id="program">Example16:- echo \stMp\stMp::_wordCount('Demo'); //Output:- 1</code></pre>
+      <pre><code id="program">Example17:- echo \stMp\stMp::_htmlRemoveTags('<!--Demo-->Demo'); //Output:- Demo</code></pre>
+      <pre><code id="program">Example18:- echo \stMp\stMp::_removeSlashes('/Demo/'); //Output:- Demo</code></pre>
+      <pre><code id="program">Example19:- echo \stMp\stMp::_removeDoubleSlashes('//Demo//'); //Output:- Demo</code></pre>
+      <pre><code id="program">Example20:- echo \stMp\stMp::_reduceMultiples('Demo,,Demo'); //Output:- Demo,Demo</code></pre>
+      <pre><code id="program">Example21:- echo \stMp\stMp::_arrayToString('Demo'); //Output:- Demo</code></pre>
+      <pre><code id="program">Example22:- echo \stMp\stMp::_reverseString('Demo'); //Output:- omeD</code></pre>
+      <pre><code id="program">Example23:- echo \stMp\stMp::_randomString(6); //Output:- saerth</code></pre>
+      <pre><code id="program">Example24:- echo \stMp\stMp::_ucFirst("demo"); //Output:- Demo</code></pre>
+      <pre><code id="program">Example25:- echo \stMp\stMp::_ucLirst("demo"); //Output:- emO</code></pre>
+      <pre><code id="program">Example26:- echo \stMp\stMp::_isAnagram("demo"); //Output:- 0</code></pre>
+      <pre><code id="program">Example27:- echo \stMp\stMp::_countSentence("This is. This is.); //Output:- 2</code></pre>
+      <pre><code id="program">Example28:- echo \stMp\stMp::_removeDuplicateChars("This is. This is.); //Output:- This is.</code></pre>
+      <pre><code id="program">Example29:- echo \stMp\stMp::_removeComment("/*This is.*/); //Output:- This is.</code></pre>
+      <pre><code id="program">Example30:- echo \stMp\stMp::_stripDigit("9This"); //Output:- This</code></pre>
+      <pre><code id="program">Example31:- echo \stMp\nodiacritic\Nodiacritic::_removeDiacritic("ťhiś"); //Output:- this</code></pre>
+    </div>
+    <div class="box" id="version">
+      <h4 class="title is-3">Latest Version</h4>
+      <article class="message is-primary">
+        <div class="message-body" id="limits_info">v1.0.2</div>
+      </article>
+    </div>
+    <div class="box" id="contact">
+      <h4 class="title is-3">Contact</h4>
+      <article class="message is-primary">
+      <div class="message-body" id="contact_info">Contact us if give a new function/idea.</div>
+      </article>
+      <pre><code id="contact_link">Email: akki.hck16@gmail.com</code></pre>
+    </div>
+  </div>
+  <!--* Content Area -->
+</div>
+</div>
+</section>
+<!--* Main Section -->
+<!-- Footer -->
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p id="footer_text">🍄Copyright © STMP 2024. All Rights Reserved.
+    stmp is string manupulation package.</p>
+  </div>
+</footer>
+<!--* Footer -->
+</body>
+</html>
