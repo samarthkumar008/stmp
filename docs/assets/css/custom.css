@@ -1,0 +1,73 @@
+/**
+ * Created By: Akki
+ * Date: 11/02/2024
+ * Uses: Docs Custom Stylesheet
+ * Last Modefied: 11/02/2024
+*/
+
+/** Google Fonts **/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --white: #fff;
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+  --gray-600: #6c757d;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+  --primary: #0d6efd;
+  --dark: #212529;
+}
+
+body{
+  width: 100%;
+  height: 0 auto;
+  overflow-x: hidden;
+}
+
+/** Other **/
+.menu-label {
+  margin-top: 20px;
+}
+@media (min-width: 30em) { /* DESKTOP */
+  .sidebar {
+    align-self: flex-start;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    overflow-x: hidden;
+  }
+}
+.endpoint-method,
+.endpoint-response-format{
+  text-transform: uppercase;
+}
+
+.menu-list a.is-active{
+  background-color: #00D1B2;
+}
+
+.float-left { /* wow, such obvious */
+  float: left;
+}
+.logo{
+  height: 100px;
+  margin-right: 30px;
+}
+
+
+/**
+ * END;
+*/
